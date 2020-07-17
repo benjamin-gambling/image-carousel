@@ -48,7 +48,7 @@ This project is licensed under the terms of the **MIT** license.
    `npm i @benjamin-gambling/image-carousel --save`
 
 2. Then in you Javascript file use: -
-   `import navbar from "@benjamin-gambling/mobile-responsive-portfolio-menu/dist/main.js`
+   `import imageCarousel from "@benjamin-gambling/image-carousel";`
 
 3. Edit Html to add/remove slides (Idicators create themsleves so that doesnt need to be touched)
 
