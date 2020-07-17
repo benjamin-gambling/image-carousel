@@ -9,6 +9,7 @@ body {
   display: flex;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 
 .carousel {
   display: flex;
-  margin-top: 100px;
+  margin-top: 60px;
   width: 1300px;
   height: 705px;
   justify-content: center;
