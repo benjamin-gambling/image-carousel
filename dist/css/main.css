@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+body {
+  background-color: transparent;
+}
+
+.carousel {
+  display: flex;
+  margin-top: 100px;
+  width: 1300px;
+  height: 705px;
+  justify-content: center;
+}
+
+.carousel-item {
+  display: none;
+  opacity: 0.85;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-img {
+  min-width: 100%;
+  min-height: 100%;
+  width: 1300px;
+}
+
+.show {
+  display: block;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -50px;
+  padding: 15px;
+  color: rgba(255, 255, 255, 0.75) !important;
+  font-size: 35px;
+  transition: 0.6s ease;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 1) !important;
+  font-size: 45px;
+}
+.carousel-indicators {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.indicator {
+  display: inline-flex;
+  padding: 6px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: -50px 5px 0px 5px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+}
+
+.indicator:hover,
+.active {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 0.85;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 0.85;
+  }
+}

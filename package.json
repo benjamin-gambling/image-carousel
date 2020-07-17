@@ -1,0 +1,23 @@
+{
+  "name": "@benjamin-gambling/image-carousel",
+  "version": "1.0.0",
+  "description": "A simple image carousel built with JS where you can add as many images as you like ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image-carousel"
+  ],
+  "author": "Benjamin Gambling",
+  "license": "MIT",
+  "dependencies": {
+    "@benjamin-gambling/mobile-responsive-portfolio-menu": "^1.0.2",
+    "imports-loader": "^1.1.0",
+    "masonry-layout": "^4.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
