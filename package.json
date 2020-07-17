@@ -1,6 +1,6 @@
 {
   "name": "@benjamin-gambling/image-carousel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple image carousel built with JS where you can add as many images as you like ",
   "main": "index.js",
   "scripts": {
